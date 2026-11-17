@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSHAcademy Student Training Verification</title>
+    <style>
+        body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; background-color: #ffffff; color: #333333; line-height: 1.5; }
+        .wrapper { max-width: 750px; margin: 0 auto; padding: 15px; }
+        header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e1e8ed; padding-bottom: 15px; margin-bottom: 20px; }
+        .logo-placeholder { font-size: 28px; font-weight: bold; color: #1f618d; }
+        .logo-placeholder span { color: #e67e22; }
+        .lang-selector { border: 1px solid #ccc; padding: 4px 8px; font-size: 12px; background: #fff; cursor: pointer; color: #666; }
+        h1 { font-size: 26px; color: #333333; margin: 10px 0 25px 0; font-weight: normal; }
+        h2 { font-size: 20px; color: #d9531e; margin-top: 25px; margin-bottom: 15px; font-weight: normal; }
+        p, li { font-size: 13.5px; color: #444444; }
+        ul { padding-left: 20px; margin: 10px 0; }
+        li { margin-bottom: 8px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .certificate-sample { border: 1px solid #ddd; padding: 15px; border-radius: 4px; background: #fafafa; margin: 20px 0; max-width: 450px; }
+        .sample-title { font-weight: bold; font-size: 13px; margin-bottom: 5px; }
+        .sample-box { border: 1px dashed #d9531e; padding: 8px; background: #fff; font-family: monospace; font-size: 12px; color: #333; display: inline-block; }
+        .status-section { background-color: #f7f9fa; border: 1px solid #e1e8ed; padding: 20px; border-radius: 4px; margin-top: 30px; }
+        .data-card { background: #ffffff; border: 1px solid #e1e8ed; padding: 15px 20px; border-radius: 4px; margin-bottom: 20px; }
+        .data-row { margin-bottom: 12px; }
+        .data-row:last-child { margin-bottom: 0; }
+        .data-label { font-weight: bold; color: #666666; font-size: 12px; text-transform: uppercase; margin-bottom: 2px; }
+        .data-value { font-size: 15px; color: #111111; }
+        .alert-valid { background-color: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 10px 15px; border-radius: 4px; font-size: 14px; font-weight: bold; margin-bottom: 20px; display: flex; align-items: center; }
+        .alert-valid::after { content: " ✔"; margin-left: auto; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; font-weight: bold; font-size: 13px; margin-bottom: 6px; }
+        .input-control { width: 100%; max-width: 350px; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; background: #fff; }
+        .btn-submit { background-color: #337ab7; border: 1px solid #2e6da4; color: white; padding: 6px 16px; font-size: 14px; border-radius: 4px; cursor: pointer; margin-top: 10px; }
+        .btn-submit:hover { background-color: #286090; }
+        .survey-section { margin-top: 35px; border-top: 1px solid #eee; padding-top: 20px; }
+        footer { background-color: #2c3e50; color: #bdc3c7; padding: 25px 15px; font-size: 12px; margin-top: 50px; text-align: left; }
+        footer a { color: #3498db; }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="logo-placeholder"><span>★</span> OSHAcademy</div>
+            <select class="lang-selector">
+                <option>🌐 Select Language</option>
+            </select>
+        </header>
+
+        <h1>OSHAcademy Student Training Verification</h1>
+
+        <h2>Does your certificate have a "Validation Code"?</h2>
+        <p style="color:#777; font-style:italic;">Example: 123-45-789-a1b2c</p>
+        
+        <ul>
+            <li>If your certificate does not contain a validation code (training completed before February 1st, 2017), please <a href="#">verify your training</a> here.<br>
+            <span style="color:#555; font-size:13px; display:block; margin-top:5px; font-weight:bold;">Please include the following information:</span>
+            <span style="color:#666; font-size:13px; display:block; padding-left:15px;">• Student name displayed on certificate<br>• Student number<br>• Title of training course or program<br>• Certificate Issue Date</span></li>
+            <li>If your certificate does have a validation code (training completed after February 1st, 2017), please enter the code in the form below.</li>
+        </ul>
+
+        <h2>Questions?</h2>
+        <p>Please contact our office at <a href="mailto:support@oshacademy-atp.com">support@oshacademy-atp.com</a> or call +1 (971) 217-8721.</p>
+
+        <div class="certificate-sample">
+            <p class="sample-title">Certificates can be validated through the OSHAcademy website:</p>
+            <div class="sample-box">Validation Code: 233689-128-233-36224<br>://oshacademy-atp.com</div>
+        </div>
+
+        <div class="status-section">
+            <h2>Validation Status</h2>
+            <p>Please verify the information below matches the information on the certificate being validated.</p>
+            <p style="font-style:italic; color:#666;">A certificate is only valid if the information matches the information provided below.</p>
+            <p>If you have any questions or concerns, please contact OSHAcademy at <a href="mailto:support@oshacademy-atp.com">support@oshacademy-atp.com</a> or call our office at +1 (971) 217-8721.</p>
+
+            <div class="data-card">
+                <div class="data-row">
+                    <div class="data-label">Student</div>
+                    <div class="data-value">MUSTAFA ABDELQADER AWAD ABDELQADER</div>
+                </div>
+                <div class="data-row">
+                    <div class="data-label">Student Number</div>
+                    <div class="data-value">492814-279</div>
+                </div>
+                <div class="data-row">
+                    <div class="data-label">ATP</div>
+                    <div class="data-value">Nejad for Consultancy (Middle East and Gulf States)</div>
+                </div>
+                <div class="data-row">
+                    <div class="data-label">Program</div>
+                    <div class="data-value">First Aid (30-hour OSHAcademy Professional Development Program)</div>
+                </div>
+                <div class="data-row">
+                    <div class="data-label">Completion Date</div>
+                    <div class="data-value">1/6/2026</div>
+                </div>
+            </div>
+
+            <div class="alert-valid">Verification Code is Valid</div>
+
+            <div class="form-group">
+                <label>Verification Code</label>
+                <input type="text" class="input-control" value="233689-128-233-36224" readonly>
+            </div>
+            <button class="btn-submit">Verify</button>
+        </div>
+
+        <div class="survey-section">
+            <h2>Student Survey</h2>
+            <p><strong>We need your help!</strong></p>
+            <p>This survey is an opportunity for you to share your experience, and have your voice heard.</p>
+            <p>We understand your busy. This survey should only take about 2 minutes to complete. The information that you share with us is always kept confidential, and will only be used to help shape the future of OSHAcademy ATP Training.</p>
+            <p>We greatly appreciate your participation and value your input.</p>
+            <p><a href="#" style="font-weight:bold; font-size:14px;">Click here to begin the survey.</a></p>
+            <p>Thanks so much!<br>OSHAcademy</p>
+        </div>
+    </div>
+
+    <footer>
+        <div style="max-width:750px; margin:0 auto;">
+            <p>© Copyright 2026 OSHAcademy Safety and Health Training. All Rights Reserved. | <a href="#">Website Terms of Use Agreement</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
